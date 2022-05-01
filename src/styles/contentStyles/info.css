@@ -1,0 +1,31 @@
+.intro .product-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.intro .product-wrapper img {
+  width: 300px;
+}
+.intro .product-wrapper .scroll-stable {
+  position: relative;
+  z-index: 99;
+  width: 350px;
+}
+.intro .scroll-move {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.info .img-wrapper {
+  position: relative;
+}
+.info .img-wrapper .absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.info .max-vh-80 {
+  max-height: 80vh;
+}
