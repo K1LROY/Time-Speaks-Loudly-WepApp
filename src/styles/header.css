@@ -121,3 +121,49 @@ a:hover {
   transition: 0.5s ease;
   cursor: pointer;
 }
+
+.intro .product-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.intro .product-wrapper img {
+  width: 300px;
+}
+.intro .product-wrapper .scroll-stable {
+  position: relative;
+  z-index: 99;
+  width: 350px;
+}
+.intro .scroll-move {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -150px;
+}
+
+@media only screen and (max-width: 991px) {
+  .intro .display-1 {
+    font-size: 2rem !important;
+    color: white !important;
+  }
+  .intro .product-wrapper img {
+    width: 160px;
+  }
+  .intro .product-wrapper .scroll-stable {
+    width: 220px;
+  }
+  .intro .scroll-move {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  .mb-sm-large {
+    margin-bottom: 250px;
+  }
+
+  .cursor {
+    display: none;
+  }
+}
