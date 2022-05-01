@@ -1,0 +1,9 @@
+/* .specs .img-wrapper {
+  position: relative;
+}
+.specs .img-wrapper .absolute {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  z-index: -1;
+} */
