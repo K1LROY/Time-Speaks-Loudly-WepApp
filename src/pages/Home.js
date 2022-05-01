@@ -1,4 +1,5 @@
 import React from "react";
+import Cta from "../components/contents/Cta";
 import Desc from "../components/contents/Desc";
 import Features from "../components/contents/Features";
 import Info from "../components/contents/Info";
@@ -11,6 +12,7 @@ export default function Home() {
       <Desc />
       <Features />
       <Info />
+      <Cta />
     </div>
   );
 }
